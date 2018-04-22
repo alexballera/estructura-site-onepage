@@ -4,7 +4,7 @@ import {NavItems} from '../navigation'
 
 export default () => {
   $app.find('#sliderHome').hide()
-  $app.find('#home').hide()
+  $app.find('#seccion-home').hide()
   $app.find('#loader').hide()
 
   // Navegacion:

@@ -1,12 +1,11 @@
 'use strict'
 import yo from 'yo-yo'
-import {home} from '../createHome'
-import {NavItems} from '../../../components/navigation'
+import {NavItems} from '../../components/navigation'
 
-const Section1 = yo`
-<section id="seccion-${NavItems.id.home}" className="container grey lighten-5">
+const elem = yo`
+<section id="seccion-${NavItems.id.home}" className="container section grey lighten-5">
   <div className="row">
-    <div className="col s12 l12">
+    <div id="${NavItems.id.home}" className="${NavItems.id.id1} col s12 l12">
       <h1>Estoy en Home</h1>
     </div>
     <div className="col s12 l12">
@@ -23,6 +22,4 @@ const Section1 = yo`
   </div>
 </section>
 `
-export default () => {
-  home.appendChild(Section1)
-}
+export default elem

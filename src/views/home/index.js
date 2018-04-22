@@ -1,8 +1,8 @@
 'use strict'
-import {createHome} from './createHome'
-import Section1 from './section1'
+
+import elem from './template'
 
 export default () => {
-  createHome()
-  Section1()
+  const main = document.getElementById('main')
+  main.appendChild(elem)
 }

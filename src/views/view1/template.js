@@ -3,7 +3,7 @@ import yo from 'yo-yo'
 import {NavItems} from '../../components/navigation'
 
 const elem = yo`
-<section id="seccion-${NavItems.id.id1}" className="container grey lighten-5">
+<section id="seccion-${NavItems.id.id1}" className="container section grey lighten-5">
   <div className="row">
     <div id="${NavItems.id.id1}" className="${NavItems.id.id1} col s12 l12">
       <h1>Estoy en Vista 1</h1>
