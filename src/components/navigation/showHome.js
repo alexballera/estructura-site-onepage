@@ -9,4 +9,4 @@ const showHome = () => {
   $app.find('#seccion-home').show('fade', 1000)
   document.title = `${NavItems.title.home}`
 }
-module.exports = showHome
+export default showHome

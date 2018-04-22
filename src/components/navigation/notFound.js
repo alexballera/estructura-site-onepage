@@ -11,4 +11,4 @@ const notFound = () => {
   document.title = `${NavItems.title.nf}`
 }
 
-module.exports = notFound
+export default notFound

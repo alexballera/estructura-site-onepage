@@ -11,4 +11,4 @@ const showLegal = () => {
   document.title = `${NavItems.title.legal}`
 }
 
-module.exports = showLegal
+export default showLegal

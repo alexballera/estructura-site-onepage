@@ -27,19 +27,19 @@ export default () => {
     }
   }
 
-  $app.find(id.seccion.view1).hide()
+  // $app.find(id.seccion.view1).hide()
   $app.find(id.li.view1).removeClass('activado')
 
-  $app.find(id.seccion.view2).hide()
+  // $app.find(id.seccion.view2).hide()
   $app.find(id.li.view2).removeClass('activado')
 
-  $app.find(id.seccion.view3).hide()
+  // $app.find(id.seccion.view3).hide()
   $app.find(id.li.view3).removeClass('activado')
 
-  $app.find(id.seccion.view4).hide()
+  // $app.find(id.seccion.view4).hide()
   $app.find(id.li.view4).removeClass('activado')
 
-  $app.find(id.seccion.view5).hide()
+  // $app.find(id.seccion.view5).hide()
   $app.find(id.li.view5).removeClass('activado')
 
   $app.find(id.seccion.legal).hide()

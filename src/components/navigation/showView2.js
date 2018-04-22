@@ -13,4 +13,4 @@ const showView2 = () => {
   document.title = `${NavItems.title.view2}`
 }
 
-module.exports = showView2
+export default showView2
