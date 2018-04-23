@@ -41,9 +41,9 @@ const NavItems = {
   },
   links: {
     home: baseUri,
-    link1: baseUri + 'vista-uno',
-    link2: baseUri + 'vista-dos',
-    link3: baseUri + 'vista-tres',
+    link1: baseUri + `#home-section-1`,
+    link2: baseUri + `#home-section-2`,
+    link3: baseUri + `#home-section-3`,
     legal: baseUri + 'legal',
     nf: '*'
   }

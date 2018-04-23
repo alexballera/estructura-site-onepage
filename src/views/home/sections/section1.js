@@ -3,7 +3,7 @@ import yo from 'yo-yo'
 import {NavItems} from '../../../components/navigation'
 
 const section1 = yo`
-  <div id="${NavItems.id.home}-section-1" className="${NavItems.id.home}-section section grey lighten-5">
+  <div id="${NavItems.id.home}-section-1" className="${NavItems.id.home}-section section scrollspy grey lighten-5">
     <div className="${NavItems.id.home}-section-title">
       <h2>Seccion 1</h2>
     </div>
