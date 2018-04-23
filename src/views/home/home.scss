@@ -1,5 +1,18 @@
 .home {
-  h1 {
+  &-title {
     color: $primary-color;
+
+  }
+
+  &-section {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    &-title {
+      color: $primary-color;
+      padding: 0;
+    }
   }
 }
