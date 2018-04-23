@@ -10,7 +10,7 @@ const elem = yo`
   <div className="navbar-fixed">
     <nav className="navbar-top">
       <div className="nav-wrapper">
-        <a href=${NavItems.links.home} className="brand-logo">
+        <a href=${NavItems.links.home} className="brand-logo" id="brand-logo">
           <img src="images/logo.png" alt="" className="header__image">
         </a>
         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>

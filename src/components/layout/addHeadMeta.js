@@ -103,7 +103,8 @@ const meta = `
   }
 </script>
 `
-
-export default () => {
+const head = () => {
   $('head').prepend(meta)
 }
+
+export {head, data}

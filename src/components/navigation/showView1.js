@@ -1,17 +1,18 @@
 'use strict'
 import {$app} from '../layout/app'
-import hideViews from './hideViews'
-import {NavItems} from '../navigation'
+// import hideViews from './hideViews'
 
 const showView1 = () => {
-  hideViews()
+  // hideViews()
+  const liID1 = '#li-view-1'
+  const liID2 = '#li-view-2'
+  const liID3 = '#li-view-3'
 
-  const SectionID = '#seccion-' + `${NavItems.id.id1}`
-  const liID = '#li-' + `${NavItems.id.id1}`
-
-  $app.find(SectionID).show('fade', 1000)
-  $app.find(liID).addClass('activado')
-  document.title = `${NavItems.title.view1}`
+  $app.find(liID1).click(() => {
+    $app.find(liID1).addClass('activado')
+    $app.find(liID2).removeClass('activado')
+    $app.find(liID3).removeClass('activado')
+  })
 }
 
 export default showView1
