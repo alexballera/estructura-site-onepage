@@ -18,4 +18,4 @@ const sideNav = yo`
   <li className="divider"></li>
 </ul>
 `
-module.exports = sideNav
+export default sideNav

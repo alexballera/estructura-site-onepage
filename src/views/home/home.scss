@@ -1,7 +1,7 @@
 .home {
+  
   &-title {
     color: $primary-color;
-
   }
 
   &-section {
@@ -9,6 +9,12 @@
     margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+
+    &-anchor {
+      display: block;
+      position: relative;
+      top: -($navbar-height);
+    }
 
     &-title {
       color: $primary-color;
