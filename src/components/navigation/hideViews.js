@@ -4,38 +4,5 @@ import {NavItems} from '../navigation'
 
 export default () => {
   $app.find('#seccion-home').hide()
-
-  // Navegacion:
-  const id = {
-    seccion: {
-      view1: '#seccion-' + `${NavItems.id.id1}`,
-      view2: '#seccion-' + `${NavItems.id.id2}`,
-      view3: '#seccion-' + `${NavItems.id.id3}`,
-      view4: '#seccion-' + `${NavItems.id.id4}`,
-      view5: '#seccion-' + `${NavItems.id.id5}`,
-      legal: '#seccion-' + `${NavItems.id.legal}`,
-      nf: '#seccion-' + `${NavItems.id.nf}`
-    },
-    li: {
-      view1: '#li-' + `${NavItems.id.id1}`,
-      view2: '#li-' + `${NavItems.id.id2}`,
-      view3: '#li-' + `${NavItems.id.id3}`,
-      view4: '#li-' + `${NavItems.id.id4}`,
-      view5: '#li-' + `${NavItems.id.id5}`
-    }
-  }
-
-  $app.find(id.seccion.view1).hide()
-
-  $app.find(id.seccion.view2).hide()
-
-  $app.find(id.seccion.view3).hide()
-
-  $app.find(id.seccion.view4).hide()
-
-  $app.find(id.seccion.view5).hide()
-
-  $app.find(id.seccion.legal).hide()
-
-  $app.find(id.seccion.nf).hide()
+  $app.find('#seccion-' + `${NavItems.id.nf}`).hide()
 }

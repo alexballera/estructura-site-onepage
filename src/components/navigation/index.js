@@ -6,7 +6,6 @@ import showHome from './showHome'
 import showView1 from './showView1'
 import showView2 from './showView2'
 import showView3 from './showView3'
-import showLegal from './showLegal'
 import notFound from './notFound'
 import page from 'page'
 
@@ -56,10 +55,6 @@ const Navigation = () => {
   showView2()
   showView3()
   page(NavItems.links.home, showHome)
-  // page(NavItems.links.link1, showView1)
-  // page(NavItems.links.link2, showView2)
-  // page(NavItems.links.link3, showView3)
-  page(NavItems.links.legal, showLegal)
   page(NavItems.links.nf, notFound)
   page()
 }

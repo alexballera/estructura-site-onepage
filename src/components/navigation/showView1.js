@@ -1,9 +1,7 @@
 'use strict'
 import {$app} from '../layout/app'
-// import hideViews from './hideViews'
 
 const showView1 = () => {
-  // hideViews()
   const liID1 = '#li-view-1'
   const liID2 = '#li-view-2'
   const liID3 = '#li-view-3'
