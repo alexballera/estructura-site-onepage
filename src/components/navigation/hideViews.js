@@ -3,6 +3,8 @@ import {$app} from '../layout/app'
 import {NavItems} from '../navigation'
 
 export default () => {
+  $app.find('#seccion-home').hide()
+
   // Navegacion:
   const id = {
     seccion: {

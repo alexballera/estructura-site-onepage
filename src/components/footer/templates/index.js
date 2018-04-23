@@ -25,7 +25,7 @@ const elem = yo`
           © 2017 Copyright Alex Ballera
         </div>
         <div className="col s12 l8 right-align">
-          <a className="waves-effect waves-custom" href=${NavItems.links.legal} >${NavItems.items.legal}</a>
+          <a className="waves-effect waves-custom" href='#modal1' >${NavItems.items.legal}</a>
         </div>
       </div>
     </div>

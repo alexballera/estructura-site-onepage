@@ -4,16 +4,10 @@ body {
 
 .picture-content {
   img {
-      width: 100%;
+    width: 100%;
   }
 }
 
-.handlee-fonts {
-  font-family: 'Handlee';
-}
-.yellowtail-fonts {
-  font-family: 'Yellowtail'
-}
 a {
   color: $color-fonts;
 
@@ -21,6 +15,7 @@ a {
   &:active {
     color: $color-fonts;
   }
+
   &:hover {
     color: $white;
   }
@@ -59,8 +54,11 @@ a {
 .row {
   margin-bottom: 0;
 }
-.blue-grey.lighten-5 {
-  background-color: $background-color-container !important;
+
+.blue-grey {
+  &.lighten-5 {
+    background-color: $background-color-container !important;
+  }
 }
 
 .show-extra-large-and-up {
