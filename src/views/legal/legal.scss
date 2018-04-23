@@ -2,6 +2,10 @@
   .modal-footer {
     a {
       color: $color-primary;
+      line-height: 24px;
+      margin: 0 !important;
+      padding-bottom: 6px;
+      padding-top: 6px;
     }
   }
 }

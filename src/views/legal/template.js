@@ -18,7 +18,7 @@ const elem = yo`
         <p>Mauris faucibus, est ut rutrum elementum, nisi ipsum luctus ante, sed semper massa nisi vel metus. Fusce ac orci a felis pulvinar vestibulum. Aenean rutrum sed quam id molestie. Nullam lacinia dolor dignissim gravida blandit. Proin condimentum varius ipsum, et consectetur lorem fermentum eu. Nulla eget massa ac diam venenatis commodo quis sit amet augue. Quisque convallis scelerisque ultrices. Suspendisse ligula ipsum, iaculis at ullamcorper eget, euismod non est. Fusce lectus justo, blandit a ultrices vitae, mattis nec augue. Suspendisse potenti. In gravida mauris non purus posuere, ac interdum nibh dignissim. Sed accumsan blandit rhoncus. Donec vel tortor convallis, venenatis lectus volutpat, vulputate nibh. Morbi mattis imperdiet ullamcorper. Mauris quis lacinia ipsum.</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-custom btn-flat ">De acuerdo</a>
     </div>
   </div>
 </section>
