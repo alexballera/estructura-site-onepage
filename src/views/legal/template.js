@@ -6,7 +6,7 @@ const elem = yo`
 <section className="seccion-${NavItems.id.legal} container grey lighten-5">
   <div id="modal1" className="modal modal-fixed-footer">
     <div className="modal-content">
-        <h1>Legal</h1>
+        <h2 className="modal-title">Legal</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum enim metus, a luctus neque dapibus bibendum. Mauris at egestas diam. Mauris pharetra lobortis lacinia. Nulla lorem lorem, pharetra id malesuada ac, cursus et tortor. Vestibulum imperdiet ante nec sem porttitor fringilla. Pellentesque vitae leo non diam ullamcorper venenatis. Nullam a consequat libero. Vestibulum sit amet luctus massa. Vivamus ac magna ac lectus vehicula aliquet. Maecenas vel urna tellus. Pellentesque non rhoncus mauris. Suspendisse potenti.</p>
 
         <p>Nulla eget dapibus justo. Duis vestibulum odio turpis, id vestibulum risus ultrices eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque convallis ac tellus eu condimentum. Integer porttitor elementum risus sit amet bibendum. Morbi vitae turpis sed felis varius ullamcorper. Integer aliquam lacinia arcu at euismod. Proin a ante eget lorem cursus sodales quis et massa. Proin sapien eros, tempor eget ligula at, semper faucibus nunc. Suspendisse sit amet risus id nisl suscipit luctus. Praesent cursus feugiat lacus, vel viverra odio efficitur sed. Phasellus sed magna laoreet, accumsan tellus nec, commodo magna. Suspendisse feugiat, nulla non pellentesque congue, neque massa feugiat ex, ut aliquam lacus est at leo. Mauris congue mollis aliquam.</p>

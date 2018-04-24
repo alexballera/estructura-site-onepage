@@ -1,11 +1,25 @@
 .seccion-view-legal {
-  .modal-footer {
-    a {
+  .modal {
+    &-content {
+      text-align: justify;
+    }
+
+    &-title {
       color: $color-primary;
-      line-height: 24px;
-      margin: 0 !important;
-      padding-bottom: 6px;
-      padding-top: 6px;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    &-footer {
+      height: initial;
+
+      a {
+        color: $color-primary;
+        line-height: 24px;
+        margin: 0 !important;
+        padding-bottom: 6px;
+        padding-top: 6px;
+      }
     }
   }
 }
